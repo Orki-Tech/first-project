@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Ori </title>
+    </head>
+    <body>
+        <button class = "btn" onclick = "alert('Hello World of Ori')">This is a button</button>
+        <button class = "btn" onclick = "multiplication();">multiplication answer</button>
+        <button class = "btn" onclick = "helloWorld();">answer</button>
+        <input type = "number" class = "inp" placeholder = " Variable X" id = "input-x"/>
+        <input type = "number" class = "inp" placeholder = " Variable Y" id = "input-y"/>
+        <input type = "number" class = "inp" placeholder = " Variable z" id = "input-z"/>
+    </body>
+
+    <script>
+        function multiplication() {
+            var x = Number(document.getElementById("input-x").value)
+            var y = Number(document.getElementById("input-y").value)
+            var z = Number(document.getElementById("input-z").value)
+
+            alert(x * y * z);
+        }
+        function helloWorld() {
+            var x = Number(document.getElementById("input-x").value);
+            var y = Number(document.getElementById("input-y").value);
+            var z = Number(document.getElementById("input-z").value);
+            // alert ('yay i didi this, i rlly wanna do hackington agani');
+
+            alert(x + y + z);
+        }
+    </script>
+</html>
